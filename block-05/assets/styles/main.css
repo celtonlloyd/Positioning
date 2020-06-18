@@ -64,8 +64,11 @@ table {
     clear: both;
   }
 /* header */
-h1 {  
-   
+header {
+    background-color: gray;
+    padding-bottom: 20px;
+}
+h1 {    
     padding-left: 25px;
     font-size: 30px;
     float: left;
@@ -80,11 +83,13 @@ nav {
 }
 
 /* main */
-
+main {
+    background-color: silver;
+}
 .col {
     float: left;
-    width: 33.3%;
-    padding: 25px 10px;
+    width: calc(100%/3);
+    padding: 25px 10px; 
     
 }
 img {
@@ -94,7 +99,7 @@ img {
 footer {
     text-align: center;
     font-size: small;
-    padding-top: 80px;
-
+    padding: 10px ;
+    background-color: gray;
 }
 
