@@ -1,0 +1,130 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     font-size: 100%;
+     font: inherit;
+     vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+     display: block;
+}
+body {
+     line-height: 1;
+}
+ol, ul {
+     list-style: none;
+}
+blockquote, q {
+     quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+     content: '';
+     content: none;
+}
+table {
+     border-collapse: collapse;
+     border-spacing: 0;
+}
+/* global */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+.inline-block {
+    display: inline-block;
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+  }
+.clearfix:after {
+    clear: both;
+  }
+  body {
+      background-color: black;
+  }
+/* header */
+header {
+    background-color: gray;
+    padding: 20px 0;
+    width: 100%;
+    
+    position: fixed;
+    z-index: 3;
+}
+h1 {    
+    padding-left: 25px;
+    font-size: 30px;
+    padding-right: 550px;
+    
+}
+li {
+    padding: 0 8px;
+}
+nav {
+    
+   padding: 10px;
+   padding-right:100px;
+}
+/* main */
+main {
+    padding-top: 70px;
+    background-color: silver;
+    margin: 0 8%;
+}
+.col {
+    float: left;
+    width: calc(100%/2);
+    padding: 25px 20px; 
+}
+h2 {
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+img {
+    width: 100%;
+}
+.gallery {
+    width: calc(100%/3);
+    background-color: gray;
+}
+.gallery2 {
+    background-color:silver;
+}
+/* footer */
+footer {
+    text-align: center;
+    font-size: small;
+    padding: 10px ;
+    background-color: gray;
+}
+.top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color:wheat;
+    font-size: 36px;
+}
