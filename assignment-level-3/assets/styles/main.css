@@ -73,6 +73,36 @@ table {
         margin: 0 auto;
         padding: 70px 0;
     }
+    ul {
+        float: right;
+    }
+    li {
+        display: inline-block;
+        padding-left: 10px;
+        }
+   li a {
+      color: #88AAD4;
+      font-size: 14px;
+    }
+    h3 {
+        color: #5385C1;
+        padding-bottom: 20px;
+        font-size: 18px;
+        line-height: 1.5;
+    }
+    p {
+        color: #B3B3B3;
+        font-size: 14px;
+        padding-bottom: 20px;
+        line-height: 1.5;
+    }
+    h2 {
+        text-align: center;
+        font-size: 40px;
+        font-weight: 100 ;
+        padding-bottom: 20px;
+        color: white;
+    }
 
   /* header */
   header {
@@ -83,17 +113,7 @@ table {
       float: left;
       color: white;
   }
-  ul {
-      float: right;
-  }
-  li {
-      display: inline-block;
-      padding-left: 10px;
-      }
- li a {
-    color: #88AAD4;
-    font-size: 14px;
-  }
+
   h1 {
         text-align: center;
         padding : 80px 0 30px 0;
@@ -124,18 +144,7 @@ header p {
         
         padding-right: 0;
     }
-    h3 {
-        color: #5385C1;
-        padding-bottom: 20px;
-        font-size: 18px;
-        line-height: 1.5;
-    }
-    p {
-        color: #B3B3B3;
-        font-size: 14px;
-        padding-bottom: 20px;
-        line-height: 1.5;
-    }
+  
     article a { 
         display: inline-block;
         color: white;
@@ -148,13 +157,7 @@ header p {
     .section2 {
         background-color:#5385C1 ;
     }
-    h2 {
-        text-align: center;
-        font-size: 40px;
-        font-weight: 100 ;
-        padding-bottom: 20px;
-        color: white;
-    }
+   
     .section2 p{
         text-align: center;
         color: rgb(172,196,225);
@@ -205,7 +208,6 @@ header p {
     
     /* footer */
     hr {
-        
         border:#b3b3b344 0.5px solid;
         margin-bottom: 30px;
     }
